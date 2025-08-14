@@ -1,0 +1,15 @@
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB1 many-to-many m2m False False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB2 many-to-many m2o False False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB3 many-to-many o2m False False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB4 many-to-one m2o False False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB5 one-to-many o2m False False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB6 many-to-many m2o True False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB7 many-to-many m2o False True False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB8 many-to-many m2o False False True
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB9 one-to-many o2m True False False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB10 one-to-many o2m False True False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB11 one-to-many o2m False False True
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB12 many-to-many m2o True True False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB13 one-to-many o2m True True False
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB14 many-to-one m2o False False True
+sbatch scripts/finetune-mbart/final_finetune_mbart.sh MB15 one-to-many o2m False False True

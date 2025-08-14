@@ -1,0 +1,22 @@
+models:
+  - model: models/MB7__checkpoint.best_loss_5.7401_hf/
+    parameters:
+      weight: 0.285714286 # 2 languages: kea, pov
+  - model: models/MB7__checkpoint.best_loss_5.7442_hf/
+    parameters:
+      weight: 0.142857143 # 1 language: pap
+  - model: models/MB8__checkpoint_last_hf/
+    parameters:
+      weight: 0.142857143 # 1 language: cri
+  - model: models/MB8__checkpoint_23_30000_hf/
+    parameters:
+      weight: 0.285714286 # 2 languages: aoe, pre
+  - model: models/MB8__checkpoint_4_5000_hf/
+    parameters:
+      weight: 0.142857143 # 1 language: fab
+merge_method: linear
+base_model: facebook/mbart-large-50
+parameters:
+  normalize: true
+  weight: 0
+dtype: float32

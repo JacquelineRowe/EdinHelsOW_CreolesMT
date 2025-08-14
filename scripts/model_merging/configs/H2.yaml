@@ -1,0 +1,15 @@
+models:
+  - model: models/NLLB9__nllb-best-global_step=119999_weights.pt
+    parameters:
+      weight: 0.333333
+  - model: models/NLLB9__nllb-best-global_step=129999_weights.pt
+    parameters:
+      weight: 0.333334
+  - model: models/NLLB9__nllb-best-global_step=139999_weights.pt
+    parameters:
+      weight: 0.333333
+merge_method: linear
+parameters:
+  normalize: true
+  weight: 0
+dtype: float32

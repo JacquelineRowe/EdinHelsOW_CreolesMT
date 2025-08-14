@@ -1,0 +1,15 @@
+models:
+  - model: models/KMT10-NEW__kreyolmt-best-global_step=29999_weights.pt
+    parameters:
+      weight: 0.333333
+  - model: models/KMT10-NEW__kreyolmt-best-global_step=34999_weights.pt
+    parameters:
+      weight: 0.333334
+  - model: models/KMT10-NEW__kreyolmt-best-global_step=39999_weights.pt
+    parameters:
+      weight: 0.333333
+merge_method: linear
+parameters:
+  normalize: true
+  weight: 0
+dtype: float32
