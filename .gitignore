@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# DS store
+**/.DS_Store
+
+# Hugging Face model/data cache
+.hf_cache/
+
+# WANDB logs 
+wandb/
